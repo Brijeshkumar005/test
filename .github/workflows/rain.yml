@@ -6,7 +6,5 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     -name: the first command
-     run: | 
-     echo "hello there"
-     ls -l
+     run: ls -l && echo "hello there"
      
