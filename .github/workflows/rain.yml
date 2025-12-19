@@ -1,0 +1,12 @@
+name: test1
+on: push
+workflow_dispatch:
+jobs:
+  -name: build first
+  runs-on: ubuntu-latest
+  steps:
+    -name: the first command
+     run: | 
+     echo "hello there"
+     ls -l
+     
