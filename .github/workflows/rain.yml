@@ -8,4 +8,6 @@ jobs:
     steps:
       - name: the first command
         run: ls -l && echo "hello there" && cat /etc/os* && uname -a && whoami
+      - name: checking out repos
+        uses: actions/checkout@v4
      
