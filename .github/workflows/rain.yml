@@ -12,3 +12,12 @@ jobs:
         uses: actions/checkout@v4
       - name: run python script
         run: python example.py
+  run_terraform:
+    runs-on: ubuntu-latest
+      steps:
+        - name: Setup terraform
+          uses: hashicorp/setup-terraform@v3
+        - name: Terraform init
+          run: terraform init
+        - name: Terraform plan
+          run: terraform plan
