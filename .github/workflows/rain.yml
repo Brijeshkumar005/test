@@ -14,7 +14,7 @@ jobs:
         run: python example.py
   run_terraform:
     runs-on: ubuntu-latest
-      steps:
+    steps:
         - name: Setup terraform
           uses: hashicorp/setup-terraform@v3
         - name: Terraform init
