@@ -10,4 +10,5 @@ jobs:
         run: ls -l && echo "hello there" && cat /etc/os* && uname -a && whoami
       - name: checking out repos
         uses: actions/checkout@v4
-     
+      - name: run python script
+        run: python example.py
