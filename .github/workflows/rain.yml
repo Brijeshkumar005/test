@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 jobs:
   build first:
-  runs-on: ubuntu-latest
-  steps:
-    - name: the first command
-      run: ls -l && echo "hello there"
+    runs-on: ubuntu-latest
+    steps:
+      - name: the first command
+        run: ls -l && echo "hello there"
      
