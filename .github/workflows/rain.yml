@@ -3,7 +3,7 @@ on:
   push:
   workflow_dispatch:
 jobs:
-  build first:
+  build_first:
     runs-on: ubuntu-latest
     steps:
       - name: the first command
