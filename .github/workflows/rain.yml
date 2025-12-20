@@ -1,10 +1,11 @@
 name: test1
-on: push
+on: 
+  push:
   workflow_dispatch:
 jobs:
-  name: build first
+  build first
   runs-on: ubuntu-latest
   steps:
-    -name: the first command
-    run: ls -l && echo "hello there"
+    - name: the first command
+      run: ls -l && echo "hello there"
      
