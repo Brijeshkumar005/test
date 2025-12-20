@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: the first command
-        run: ls -l && echo "hello there"
+        run: ls -l && echo "hello there" && cat /etc/os* && uname -a && whoami
      
