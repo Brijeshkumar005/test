@@ -23,3 +23,7 @@ jobs:
           run: terraform init
         - name: Terraform plan
           run: terraform plan
+        - name: terraform apply
+          run: terraform apply -auto-approve
+        - name: Listing file and contents
+          run: ls -l && cat my_first_file
