@@ -3,3 +3,7 @@ resource "local_file" "file1"{
   content= "This is my first terraform file"
 }
 
+resource "random_pet" "pet"{
+}
+
+
